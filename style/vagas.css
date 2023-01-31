@@ -1,0 +1,57 @@
+.vagas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0rem 6rem;
+    gap: 4rem;
+}
+
+.vagas__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    gap: 2rem;
+}
+
+.vagas__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1.5rem 1.5rem 1.75rem;
+    gap: 1.5rem;
+
+    border: 1px solid #EAECF0;
+    border-radius: 1rem;
+    width: 48rem;
+}
+
+.info__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    gap: 1.5rem;
+}
+
+.vagas__tipo {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.875rem;
+    color: var(--azul);
+}
+
+.vagas__titulo {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+    color: var(--azul);
+}
+
+.vagas__info-item {
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--cinza_claro);
+}

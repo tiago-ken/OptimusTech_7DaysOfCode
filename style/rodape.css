@@ -1,0 +1,77 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0rem;
+    gap: 2rem;
+    background-color: #F9FAFB;
+}
+
+.rodape__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem;
+    gap: 2rem;
+}
+
+.rodape__conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.rodape__contato {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.rodape__titulo {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    color: var(--azul);
+}
+
+.rodape__texto {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--cinza_claro);
+}
+
+.contato__email {
+    padding: 0.75rem 0.875rem 0.75rem 1rem;
+    gap: 0.5rem;
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 0.5rem;
+    width: 20rem;
+    height: 1.25rem;
+}
+
+.contato__botao {
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: #FFFFFF;
+    padding: 0.75rem 1.25rem;
+    gap: 0.5rem;
+    background: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 0.5rem;
+}
+
+.contato__botao:hover {
+    background-color: #b14441;
+}
+
+.copyright {
+    text-align: center;
+    line-height: 1.5rem;
+    color: #98A2B3;
+}

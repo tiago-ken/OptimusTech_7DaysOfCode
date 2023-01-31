@@ -1,0 +1,32 @@
+.talentos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem;
+    gap: 1.5rem;
+}
+
+.taletos__botao {
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color: var(--vermelho);
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    padding: .25rem .75rem;
+    text-align: center;
+}
+
+.taletos__titulo {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--azul);
+    line-height: 2.75rem;
+}
+
+.taletos__texto {
+    font-size: 1.25rem;
+    color: var(--cinza_claro);
+    line-height: 1.875rem;
+    margin: 0 0 3rem 0;
+}
